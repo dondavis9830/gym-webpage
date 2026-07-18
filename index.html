@@ -16,6 +16,7 @@
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <!-- aos linkiung -->
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    
 </head>
 <body>
     <script>AOS.init();</script>
@@ -58,28 +59,28 @@
         <h1 class="heading">Our Services</h1>
         <div class="row">
            <!-- From Uiverse.io by samuelfcosta18 --> 
-           <section class="card" data-aos="fade-down-right">
+           <section class="card" data-aos="fade-down-right" data-aos-duration="1000">
               <img width="400px" src="./lift.webp" alt="">
               <div class="card__content">
                  <p class="card__title">Power Lifting</p>
                  <p class="card__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam vitaejusto vel lorem tincidunt ultrices at non nunc. Donec in sapien viverra,tincidunt augue id, efficitur massa.</p>
               </div>
            </section>
-           <section class="card" data-aos="fade-down-right">
+           <section class="card" data-aos="fade-down-right" data-aos-duration="1000">
               <img width="600px" src="./boxing.jpg" alt="">
               <div class="card__content">
                  <p class="card__title">Boxing</p>
                  <p class="card__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam vitaejusto vel lorem tincidunt ultrices at non nunc. Donec in sapien viverra,tincidunt augue id, efficitur massa.</p>
               </div>
            </section>
-           <section class="card" data-aos="fade-down-left">
+           <section class="card" data-aos="fade-down-left" data-aos-duration="1000">
               <img width="600px" src="./cardio.webp" alt="">
               <div class="card__content">
                  <p class="card__title">Cardio</p>
                  <p class="card__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam vitaejusto vel lorem tincidunt ultrices at non nunc. Donec in sapien viverra,tincidunt augue id, efficitur massa.</p>
               </div>
            </section>
-           <section class="card" data-aos="fade-down-left">
+           <section class="card" data-aos="fade-down-left" data-aos-duration="1000">
               <img src="./trainer.webp" alt="">
               <div class="card__content">
                  <p class="card__title">personal trainer</p>
@@ -126,7 +127,7 @@
         <h1> Choose Your Plan</h1>
         <div class="row4">
             <div class="col4">
-                <i  class="fa-solid fa-leaf" style="color:#B4121B"></i>
+                <i  class="fa-solid fa-leaf" style="color:#ff000d"></i>
                 <h4>Basic</h4>
                 <li><span>&#8377;499</span></li>
                 <li>✔️5 project</li>
@@ -136,7 +137,7 @@
             </div>
             <div class="col4">
                 <div class="most"><h5>Most Popular</h5></div>
-                <i class="fa-brands fa-pagelines" style="color:#B4121B"></i>
+                <i class="fa-brands fa-pagelines" style="color:#ff000d"></i>
                 <h4>Standard</h4>
                 <li><span>&#8377;999</span></li>
                 <li>✔️10 project</li>
@@ -145,7 +146,7 @@
                 <button>choose plan</button>
             </div>
             <div class="col4">
-                <i class="fa-brands fa-canadian-maple-leaf" style="color:#B4121B"></i>
+                <i class="fa-brands fa-canadian-maple-leaf" style="color:#ff000d"></i>
                 <h4>Premium</h4>
                 <li><span>&#8377;1999</span></li>
                 <li>✔️unlimited project</li>
@@ -161,7 +162,7 @@
         <div class="col6">
             <h1>Start Your transform</h1>
             <h2>your coutdown starting from your mind</h2>
-            <button>Join Now</button>
+            <button><a href="">Join Now</a></button>
 
         </div>
     </section>
@@ -181,20 +182,22 @@
     </section>
     <section id="rating">
         <h1>What Our Members Says</h1>
-        <div class="row">
-            <div class="col5">
+        <div class="row" >
+        <div class="col5"  data-aos="fade-right" data-aos-duration="500">
             <img src="data:image/webp;base64,UklGRkQMAABXRUJQVlA4IDgMAACwUQCdASoSAeoAPp1MoUulpC4qJLVZscATiWduul5q0WEZ4lepXcTibu33BzaohjL++4mVM9B4Pf3wcPaqmJ7hxHDBPy1lMGO3W+RfsM+mc8cCZDAAW2+geVVVVVVRkjsSjXhNyX8SOPTi3D+TMB7X3Zl478I/iRhqSNsBJ604p1LM7u7ugD+qbsU5E8m+hFfPA7bI57Mq1QlpEx4IWomAYoYx1xBU3A7+TT9rCirZt8ezdV9u7v0qvM1U2F73E3Ii0JlutTBGFme0OkGDeSLXhUBonIaIL4dpFDVTXOZxGtU9k4JWp5OYO2BzeAuuv6NDaNTPbFIF1wevj+E/RqZGGQLlIG52de3bxZ+9pi75eUTPCh0ocJ5/MqeVP5SPYI5wjgnNdLpdr37ddW59LcjwuOGsqL89V2HbpclOF0/8pdy/vGGhKV29TixFCj18s3NMfTpqZnISG9Y2EY3u8ZXubohaBZvVqZWqn2hQv7B0bdO/EcvxizGAmC9rqbU7LyqKhC+xxqqrK6lkDsoI5ErbnR/AJpsJ6DUYjnk4F+DFA8oJi6OPJJ8Y4Ornp+qrJbu7oVC8OCAUzZg2iAWN/ws3g4nysZFft0Ik8J6HyIzKqtXtUp586F6xKzLTSuvcP93turxwlOZLP+o3iT49erVivpNl0ZaKtSMycEJ5qRPeyRhYn5tvm7+trNKBrxgQySs8NDSMN7fpYHeHBwUpnlyGdf1GT+jfqxW7XoNxAVPZ9qETdYvEGyLMJuLZ0MRZURsa6nCUcYA+iIPWeEoi5GAtDxVNRgkpOkaOwZLrnEesJrCBsMFU4bu3LzwtnZUBc3lriNwBWy6gBPIpzczUp859BSemPJ7wzVWXe93NjWBk3dyQzr8jAAD+9iXRYFX8vWDAQcE9uDx5ivgwIn4gt1v5wIMaZntRjLYeg2Jo04oNqbd2kCIqbnBn1CqPlx3wBvzzyeGTuMH2ueXYaK57mJwOX3tRUG+DBATtqFknrCwLC3dUpuhfc8iWfqeMEAF9AvoXJioCIRGLsoQ1ze5ouW+x00QFFDiAygL+uTeGmahRG8weZhWYYnPRXaJ0Cpi5RtwU5T7b8dLXS+aL6WlsqWijMvq+w0upbJH0QjYwVGX2Y34NpQMuphBdsFRn+JDWGNbJSo0rDEc2N0gZlSXwEAlzGNEo7zBpg4E8dM6GbPASYc4yN7zGp32mYKaZELDJCoTB4du+cBTK40T4EuF5RPdrWlfmXnwftRAC61Fashx8olbx6eTVJYf1OzRAg3WtQq6/KpeSJJ3agvHSUjkSrTmmH9wUQZQApkpgFjsKqi1SnG5LXXXrBmHCCQG1O0b3hO5ATUSKMizHPyRITjpKb/jydAjdOBcW5fAzBlpuiaXVrKWH5PMgc9fst7bk1Qh1O/mMK7tm4JYUhDBoA/ZPUglreasaScejjgFo4j4qG8J16CTG7sG9OIo5PKnJxs31utKK8znasLjvYhyOGdKv70mrjJzuiAKfiYvIYKO0CVng6AbLA9kXrSj6V5F1rcXhqYOYSx2o00JC2YWs2/WhhpC2kYKd6gMi7VZkPwrY/XEM52Cgkvxst8GH7thMlHLm4rNFnxRz7twxGP4590Wxh4DXUcpZhC9MwMJ8gBEMFZTUNpSINoYaAu0xEQ4HJN+ql7koGbcclOkcQGkYClNTD015pRo56sAyRn4XJ1QSnB2iaAChwkC/L85Qcyy1MgoXtAdekAJSBO1phoGq7yScX5/PitPHA4Vx+xcZ7zxxw6F17v21CzpXEyWM6nihOQy2oKAvaGwneqsRP2srGmsKJkb3kkhJqxNIMJu17aMBKveJGzu9a+bGKxPvEgMALIVDlUby1TIRZrP7DxnpIYVav4iWBLkU6XhPmZlGdyoAB8zN6M+DRCu5MN9vMnDEgHdAE2rPJ3TGgzw/FwF1r7nWs7jAUJC+j8ZFdbuyiF/xCdoS7M/qZYvdHPw9xGaci6XKBbOgZYfcgTVwP9n4Hu8W+SVMIo/mUaG8pAsZivW1kQ5E5G3M34HR6Emt4p+WvnQDxR3cJ42B3xmcY2uRz0B9W4onfnCEnV0dlQyFQ+/eRepqV8ds6vy7jGTAzN6wsM6Wq6bBIGMe1/FGiFZAYIeZ2xpZ9Rvg0m7SzO+r3REPeKjBrMJpZ2XqKvs1TpAba5fw9QV7YfXQi8Y8lMPViRzL/HuCj1AJwQASTTvd6qqPoRCvvX4qMYKYsqpnFb8mjVSakpf3Z+tYdeXVw0GdCuqgnN+ZZK6IogUs6TMnKlrZPmmuwVbPsx1FrGzFEbiyw7CKPiIrD8EbP1Ls/ZkDSISSCaFDy9XyQQWhQxoTzjGEj3fQq3NMeC3/97E97bUFxO9Q0Ll7guFoVwGl+sFvByYTwc8rmqHph5tCKtxPwf/J1T9UvddtTLdoUmEC+nFvNw9C6/0hgRiOzewtFMgmGADe4C8Oc+/WVrVQqO26Q1IzfTprJf718ADOsJxlGH2VztJm64KyeYhaLxN64GaFYs55GmIor3bbR9HskfUQONEL9CfQURgQ0EKHXYldE0JyQ/Q1HYM4aibwHpwCFp3A3tm7DnON/eQOi9eCI+TkClU7KpgDluekaxQEa0p1Rynp2OeqJJzr1S4ud3XoCKbBxRgyJTMp3cO7+1jX89nGacUv/J3OgI44bH7hZYs83U5Fhgz8Jl/yMCDroCzTRDRksBwo1HH3pxfrve973eUqjcUwfS0bIyysYnu5I2nLBri8mMyuwzF+PZN7kAoxZ3WuRQjkju02YMoN+IYe1f2IRVDZ+QC3X/wRukH/jDPUHiW2GDxXkKXfvShfip+UU3vNWaGLjQnGY4SfgLk8SsiCRSCFfXSoyr8OKox9G8Z+ihMWUvQPRsij6b/5WZqyKRIl6231WgDIV/KIg61FRR8ownt2MlXVsqkGkA1b13BuBf75zXalhpD5+WmMvom/6/SPIV2Oun4pyHrQMn80eQV+WCxxApA2RmSnDJRhFsbqSa2mauAHJWxN/nhACJTBM2Swm3K9duMbLiSrt7I3MjGH0AURV41tlhsgLis24cnb4eoqM4OQUs/EWF2T7vulOw/Kgk29hN9CJdSmKOZ+qjKLXZvBzBorlxxlHXdMd+w4hcM3cLucyZA1y6fVqk47HCA+vvDWQp676gM1VwfQtTBouTOy2AYAs8aiw4qP3+kvR/mbU6/ozRwSzdqB3AZsEfeSdKsyGoa59q/2JKKq+1o0gx6eISKHf1zVrgXie8yBEsoX9d5lhyUzMT2PAuWMHtQ0t1IldTB4Gglk07s85AeJhggScd7N/2iNZXdv4J3Ry8cqKFSIgRlvn8ivcD831RpOQGvVxxyT4X41+klBi2nOhbLZC4/1M7WQuwI/HHOjXst9ZbVNb1bHrIfPO5n2NiTtLqrLAHPnq8K5ChuXNaV3dH4IB2gOFgMBqiyMU++7DJLUCXWVuxEPYuFKVGhZD0lFv+PMs/hkQj6oPLkDZeTSTDSd+y8dXAgVzEEVdbwgxETeo2EAWeDJSyt9LWVgDuXTFx+3leBL2ljTnjDGlTx90l8PKJozRoWQq3aWeJ9pXpfvkp4aAAN7szA5SCcuK+N62xF3TxvWkOZHbJBT7X/ckga1XGMUBmkytUmaDg6GisXdxWrO/Xo4LjvUGlDWEimGlY1bi3R6c9d++kLgyegBnGp9oAY9IR142b8AjgAQuAH5z582/Gm4KMWo1u/ygxfvXCzJgtX/b8SabWSsZ4lopUVufHeTups2iSU9CWORdkKwvQxP9DiCnoGQKw0Rh+iL8awqcG+1tRHuJNJiIaVca6I8Plw06C/rPJQ73Y4yB7hmLhDpF+AK8MW0vWRxHbmWBo9b3eoB2kRvihtGmDsgI47yEbJFsyWEVu3/R8OAyIiVVCZMyQe2HBCmhyMbVEbGxiL/mPJ75WKZMByg6XGDWtVtlufeI1CHZTZAbjTL6Q5y49YhrLmRxjlX3LiIjGxQhsUfRxFs8c1iigsfvbnWnxA+xd5tsmo93H1nQV6x0I6jcAbbY9KvcV1eXiyqhxBrDfTR6AFA7CbsXVAOLBY4cH/2UblnIMfcsbS9j2a490CNt3yjIlNQh0u2p4ZImGgCXQISN/Lzo0UL0verVIukJNr2IdqAfc7UQ++4lyKv4q2Ct7euWuHebCKWW2RAAA==" alt="">
-            <p>good trainers</p>
-            <p class="star"><i class="fa-solid fa-star" style="color: rgb(238, 186, 0);"></i>
+            <p>Good Trainers</p>
+            <p class="star">
+              <i class="fa-solid fa-star" style="color: rgb(238, 186, 0);"></i>
+              <i class="fa-solid fa-star" style="color: rgb(238, 186, 0);"></i>
               <i class="fa-solid fa-star" style="color: rgb(238, 186, 0);"></i>
               <i class="fa-solid fa-star" style="color: rgb(238, 186, 0);"></i>
               <i class="fa-solid fa-star" style="color: rgb(238, 186, 0);"></i>
             </p>
             <h3>Danny</h3>
         </div>
-        <div class="col5">
+        <div class="col5" data-aos="fade-right" data-aos-duration="800">
             <img src="https://th.bing.com/th?q=People+Pics+Passport+Size&w=120&h=120&c=1&rs=1&qlt=70&o=7&cb=1&dpr=1.3&pid=InlineBlock&rm=3&mkt=en-IN&cc=IN&setlang=en&adlt=moderate&t=1&mw=247" alt="">
-            <p>i transformed my body in 3 months</p>
+            <p>My body  transformed in 3 months</p>
             <p class="star">
                 <i class="fa-solid fa-star" style="color: rgb(238, 186, 0);"></i>
               <i class="fa-solid fa-star" style="color: rgb(238, 186, 0);"></i>
@@ -203,17 +206,18 @@
             </p>
             <h3>Martin</h3>
         </div>
-        <div class="col5">
+        <div class="col5"  data-aos="fade-left" data-aos-duration="800">
             <img src="./face3.png" alt="">
-            <p>good atmospheare</p>
+            <p>Good atmospheare</p>
             <p class="star"><i class="fa-solid fa-star" style="color: rgb(238, 186, 0);"></i>
+              <i class="fa-solid fa-star" style="color: rgb(238, 186, 0);"></i>
               <i class="fa-solid fa-star" style="color: rgb(238, 186, 0);"></i>
               <i class="fa-solid fa-star" style="color: rgb(238, 186, 0);"></i>
               <i class="fa-solid fa-star" style="color: rgb(238, 186, 0);"></i>
             </p>
             <h3>Sebastian</h3>
         </div>
-        <div class="col5">
+        <div class="col5"  data-aos="fade-left" data-aos-duration="500">
             <img src="./face4.png" alt="">
             <p>Best gym experience ever</p>
             <p class="star"><i class="fa-solid fa-star" style="color: rgb(238, 186, 0);"></i>
@@ -232,6 +236,7 @@
             <img width="300px" height="400px" src="./girl.jpg" alt="" data-aos="fade-right">
             <!-- From Uiverse.io by aadium --> 
             <form class="form">
+               <h2>contact us</h2>
                <input class="input" type="text" placeholder="Your Name">
                <input class="input" type="text" placeholder="Phone Nmber">
                 <textarea class="textarea" placeholder="Enter message"></textarea> 
